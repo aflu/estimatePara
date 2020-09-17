@@ -33,7 +33,7 @@ capF = 3800000.		# pc fluid
 # Measured Data
 # -------------------------------------------------------------------------
 
-with open('D:\\Benutzer\\Dueber\\V\\23_EONMPC\\16_ParameterOptimizer\\Data_Probe_3dt_30.0.txt', 'r') as file:
+with open('.....\\Data_Probe_3dt_30.0.txt', 'r') as file:
 	file.readline() # skip the first line
 	rows = [line.split('\t')[:] for line in file]
 	cols = [list(col) for col in zip(*rows)]
